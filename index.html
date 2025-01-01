@@ -26,56 +26,59 @@
         </div>
     </div>
 
-    <nav class="navbar bg-primary" data-bs-theme="dark">
+    <nav class="navbar bg-dark" data-bs-theme="dark">
         <div class="container-md  justify-content-start">
+            <button class="d-sm-none navbar-toggler me-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <span class="navbar-brand mb-0 h1">Not Defteri</span>
         </div>
     </nav>
     <div class="container-md flex-fill ">
         <div class="row h-100 ">
-            <div class="col-4 col-lg-3 h-100 d-flex flex-column">
-                <div class="d-none d-sm-flex col-4 col-lg-3 h-100  flex-column">
-                    <div class="d-flex">
-                        <button id="ekle" class="btn btn-primary my-2 ms-auto">
-                            <i class="fa-solid fa-plus"></i>
-                        </button>
-                    </div>
-                    <div class="flex-fill position-relative">
-                        <div class="w-100 overflow-y-auto position-absolute top-0 bottom-0 mb-3">
-                            <div id="liste" class="list-group ">
-                                <button type="button" class="list-group-item list-group-item-action active"
-                                    aria-current="true">
-                                    The current button
-                                </button>
-                                <button type="button" class="list-group-item list-group-item-action">A second button
-                                    item</button>
-                                <button type="button" class="list-group-item list-group-item-action">A third button
-                                    item</button>
-                                <button type="button" class="list-group-item list-group-item-action">A fourth button
-                                    item</button>
-                            </div>
-                        </div>
-                    </div>
+            <!--  <div class="col-4 col-lg-3 h-100 d-flex flex-column"> -->
+            <div class="d-none d-sm-flex col-4 col-lg-3 h-100  flex-column">
+                <div class="d-flex">
+                    <button id="ekle" class="btn btn-primary my-2 ms-auto">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
                 </div>
-                <div class="col-8 col-lg-9 h-100">
-                    <form class="h-100 pt-3 d-flex flex-column">
-                        <div class="mb-2">
-                            <input class="form-control" type="text" placeholder="Başlık">
-                        </div>
-                        <div class="mb-2 flex-fill">
-                            <textarea class="form-control h-100" placeholder="Bir şeyler yazınız"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <button class="btn btn-success">
-                                <i class="fa-solid fa-floppy-disk"></i>
+                <div class="flex-fill position-relative">
+                    <div class="w-100 overflow-y-auto position-absolute top-0 bottom-0 mb-3">
+                        <div id="liste" class="list-group ">
+                            <button type="button" class="list-group-item list-group-item-action active"
+                                aria-current="true">
+                                The current button
                             </button>
-                            <button class="btn btn-danger ">
-                                <i class="fa-solid fa-trash"></i>
-                            </button>
+                            <button type="button" class="list-group-item list-group-item-action">A second button
+                                item</button>
+                            <button type="button" class="list-group-item list-group-item-action">A third button
+                                item</button>
+                            <button type="button" class="list-group-item list-group-item-action">A fourth button
+                                item</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
+            <div class="col-sm-8 col-lg-9 h-100">
+                <form class="h-100 pt-3 d-flex flex-column">
+                    <div class="mb-2">
+                        <input class="form-control" type="text" placeholder="Başlık">
+                    </div>
+                    <div class="mb-2 flex-fill">
+                        <textarea class="form-control h-100" placeholder="Bir şeyler yazınız"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-success">
+                            <i class="fa-solid fa-floppy-disk"></i>
+                        </button>
+                        <button class="btn btn-danger ">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!-- </div> -->
         </div>
     </div>
 
